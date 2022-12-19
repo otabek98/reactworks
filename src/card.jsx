@@ -6,8 +6,10 @@ class Card extends React.Component{
         const {data} = this.props
         return(
             <div className='container'>
-               <img className='img' >{data.img}</img>
+               <img className='img' src={data.img} />
                <h5 className='title'>{data.name}</h5>
+
+               
             </div>
         )
     }
