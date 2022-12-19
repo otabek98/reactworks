@@ -1,0 +1,24 @@
+.container{
+    width: 450px;
+    height: 500px;
+    border-radius: 12px;
+    border: none;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+  /* margin-bottom: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+    height: 50px;
+
+
+}
+.header{
+    margin-bottom: auto;
+}
