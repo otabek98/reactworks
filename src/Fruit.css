@@ -1,4 +1,16 @@
 .wrapper{
     display: flex;
-    flex-wrap: wrap;
+    margin: 50px;
+
+
+
 }
+.btnWrapper{
+    display: flex;
+    flex-direction: column;
+
+}
+.stateWrapper{
+    margin-left: 150px;
+}
+
